@@ -6,7 +6,8 @@ authors = ["\"Noah Kennedy\""]
 license = "n/a"
 
 [tool.poetry.dependencies]
-python = "3.7"
+python = "3.8"
+ebaysdk = "^2.2.0"
 
 [tool.poetry.dev-dependencies]
 
