@@ -39,8 +39,8 @@ Hopefully, repo setup should be pretty useful! We're going to be using Poetry an
 
 `source ebay-env/bin/activate` 
 
-4. Find your eBay credentials from the first half of this guide, and plug them into the config file. 
-- !WIP! Still a work in progress, currently not yet using the config file properly... !WIP! 
+4. Find your eBay credentials from the first half of this guide. For the findingAPI you need the `appid` for the Production environment. Paste the appid into the Beckett_python_api.py file on ~line 6. 
+- !WIP! The ebay-config.yaml file is still a work in progress. So is saving credentials in a safe way. 
 
 
 Information on how to get the oauth-redirect-URI:
