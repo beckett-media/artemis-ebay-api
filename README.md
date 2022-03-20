@@ -41,8 +41,10 @@ Hopefully, repo setup should be pretty useful! We're going to be using Poetry an
 
 4. Find your eBay credentials from the first half of this guide. For the findingAPI you need the `appid` for the Production environment. Credentials are managed by keyring. To save them execute the following in a python console:  
 
-`import keyring
-keyring.set_password('ebay', 'beckett_appid', '<your credential>')`  
+```python
+>>>import keyring
+>>>keyring.set_password('ebay', 'beckett_appid', '<your credential>')
+```
  
 - !WIP! The ebay-config.yaml file is still a work in progress. So is saving credentials in a safe way. 
 
