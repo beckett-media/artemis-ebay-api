@@ -1,9 +1,9 @@
 from ebaysdk.merchandising import Connection as merchandising_connection
 from ebaysdk.finding import Connection as finding_connection
 from searchObject.findingSearchObject import findingSearchObject
+import keyring
 
-
-beckett_appid = ''
+beckett_appid = keyring.get_password('ebay', 'beckett_appid')
 api = finding_connection(appid=beckett_appid, config_file=None, siteid="EBAY-US")
 responseItems = []
 
